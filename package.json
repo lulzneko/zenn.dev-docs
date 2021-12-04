@@ -1,0 +1,11 @@
+{
+  "name": "zenn.dev-articles",
+  "packageManager": "pnpm@6.23.2",
+  "homepage": "https://zenn.dev/lulzneko",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lulzneko/zenn.dev-articles.git"
+  },
+  "author": "lulzneko",
+  "license": "CC BY-SA"
+}
