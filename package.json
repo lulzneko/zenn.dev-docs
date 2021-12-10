@@ -1,6 +1,14 @@
 {
   "name": "zenn.dev-articles",
   "packageManager": "pnpm@6.23.2",
+  "scripts": {
+    "new": "zenn new:article",
+    "book": "zenn new:book",
+    "preview": "zenn preview"
+  },
+  "devDependencies": {
+    "zenn-cli": "^0.1.99"
+  },
   "homepage": "https://zenn.dev/lulzneko",
   "repository": {
     "type": "git",
