@@ -263,6 +263,10 @@ SvelteKit を使うこと簡単で高速に高品質のウェブサイトを作�
 
 またプロバイダーの追加は柔軟に行えるため、本来実装していた SAML 認証も同じ実装で簡単に追加できました。プロバイダー実装だけなのですが、いつかの機会に紹介します。
 
+**2021.12.22 追記**
+この記事のソースをサーバーレスに SSR する方法の記事を書きました。
+https://zenn.dev/lulzneko/articles/running-sveltekit-ssr-serverlessly-in-aws
+
 
 ## 参考サイト
 [@robertohuertasm](https://twitter.com/robertohuertasm) さんの記事を参考にさせていただきました。ありがとうございます！
