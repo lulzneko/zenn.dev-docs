@@ -40,7 +40,8 @@ sk-auth を使うことで SvelteKit のサイトに手軽に認証機能を導�
 - Node.js 16
 - SvelteKit 1.0.0-next.201
 - sk-auth 0.3.7
-- Ubuntu 18.04 LTS (WSL1) / GitHub Actions Ubuntu
+- Ubuntu 18.04 LTS (WSL1)
+- Google Cloud Platform (OAuth 2.0)
 
 
 ## SvelteKit とは
