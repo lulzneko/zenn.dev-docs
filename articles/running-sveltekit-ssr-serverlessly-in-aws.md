@@ -3,7 +3,7 @@ title: "SvelteKit の SSR を AWS 環境でサーバーレスに動かす"
 emoji: "⚡"
 type: "tech"
 topics: [ sveltekit, svelte, serverless, aws, lambda ]
-published: false
+published: true
 announce:
   記事を書きました。
   SvelteKit + sk-auth(Google OAuth2) の SSR を AWS でサーバーレスに動かす方法を紹介。
