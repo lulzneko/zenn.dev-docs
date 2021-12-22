@@ -3,7 +3,7 @@ title: "SvelteKit の SSR を AWS 環境でサーバーレスに動かす"
 emoji: "⚡"
 type: "tech"
 topics: [ sveltekit, svelte, serverless, aws, lambda ]
-published: false
+published: true
 announce:
   記事を書きました。
   SvelteKit + sk-auth(Google OAuth2) の SSR を AWS でサーバーレスに動かす方法を紹介。
@@ -178,9 +178,13 @@ import adapter from './adapter-aws-apigw/index.js';
 
 
 ## Serverless で AWS 環境を構築
-Lambda 用コードが出力できるようになりましたが、下図のように SSR 部分は Lambda へ、静的コンテンツは S3 へ配置しアクセスさせる必要があります。それも同じドメインで。。。
+Lambda 用コードが出力できるようになりましたが、SSR 部分は Lambda へ、静的コンテンツは S3 へ配置しアクセスさせる必要があります。それも同じドメインで。。。
 
 そのためには、さまざまな AWS のサービスを組み合わせる必要があります。そして Lambda コードのデプロイに静的コンテンツのアップロード。これらを一手に担ってくれるのが [Serverless Framework](https://www.serverless.com/framework/docs) です。他にもソリューションがありますが、AWS 内のリソース管理の観点から好んで使っています。ここでは他のツールへポートしやすいように最小限の設定に絞って書きます。
+
+構成のイメージは以下です。CloudFront でリクエストを受付け、静的コンテンツは S3 へ。S3 でコンテンツが無かったら API Gateway/Lambda の SSR へ回します。
+また、OAuth2 のフローは SSR 側で URL 生成などの処理や検証などを行います。sk-auth が発行する認証済み JWT の Cookie も SSR で必要になります。
+![SvelteKit SSR in AWS](/images/sveltekit-ssr-in-aws.png)
 
 
 ### Serverless のインストール
