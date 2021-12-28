@@ -223,6 +223,10 @@ Ship.js を使うことで、リリースをシステマチックにできます
 - Ship.js が作ったリリース判定用のプルリクエストに判定材料の情報を自動コメントする
 - master/stable/production の３ブランチ運用へ Ship.js リリース・フローを適用する
 
+**2021.12.28 追記**
+この記事の Ship.js リリースに lerna-changelog によるリリースノート生成を組み込む記事を書きました
+https://zenn.dev/lulzneko/articles/generate-release-notes-by-pr-with-lerna-changelog
+
 
 ## 参考サイト
 [@kazu_pon](https://twitter.com/kazu_pon) さんの記事を参考にさせていただきました。ありがとうございます！

@@ -3,10 +3,10 @@ title: "lerna-changelog でプルリクからリリースノート生成する"
 emoji: "📘"
 type: "tech"
 topics: [ release, cicd, githubactions, github, nodejs ]
-published: false
+published: true
 announce:
   記事を書きました。
-  Ship.js を使ったサービス系リリースに、プルリクを元にリリースノートを生成する機能を追加。。
+  Ship.js を使ったサービス系リリースに、プルリクを元にリリースノートを生成する機能を追加。
 
   プルリク・ベースなのでラベルによる分類と柔軟な項目の管理と整理ができます。
 
