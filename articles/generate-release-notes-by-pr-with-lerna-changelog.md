@@ -304,6 +304,12 @@ lerna-changelog を使うことで、プルリクエスト・ベースの変更�
 いっぽうで Conventional Commits でコミット・メッセージを適切に運用できており、そのままプルリクエストのラベルと結びつくようなケースではラベルを付けるのが手間になってしまうこともあります。このようなケースをサポートするための GitHub Actions を組んでいるので、またご紹介できればと思います。
 
 
+### 関連する記事
+- [サービスを Ship.js でプルリク･ベースにリリースする](https://zenn.dev/lulzneko/articles/using-shipjs-to-make-service-releases-pr-based)
+- [lerna-changelog でプルリクからリリースノート生成する](https://zenn.dev/lulzneko/articles/generate-release-notes-by-pr-with-lerna-changelog) (本記事)
+- [GitHub Actions でコミットログからプルリクにラベル貼り](https://zenn.dev/lulzneko/articles/labeling-pr-from-commitlog-with-githubactions)
+
+
 ## 参考サイト
 [@kazu_pon](https://twitter.com/kazu_pon) さんの記事を参考にさせていただきました。ありがとうございます！
 https://qiita.com/kazupon/items/0038529541c1e59e9124
