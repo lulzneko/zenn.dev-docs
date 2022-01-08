@@ -3,7 +3,7 @@ title: "GitHub Actions でコミットログからプルリクにラベル貼り
 emoji: "🏷️"
 type: "tech"
 topics: [ cicd, githubactions, github ]
-published: false
+published: true
 announce:
   記事を書きました
   プルリクエストにコミットメッセージからラベルを自動的に付与する GitHub Actions のスクリプトを紹介。
