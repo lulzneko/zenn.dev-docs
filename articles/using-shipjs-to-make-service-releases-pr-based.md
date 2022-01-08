@@ -223,9 +223,10 @@ Ship.js を使うことで、リリースをシステマチックにできます
 - Ship.js が作ったリリース判定用のプルリクエストに判定材料の情報を自動コメントする
 - master/stable/production の３ブランチ運用へ Ship.js リリース・フローを適用する
 
-**2021.12.28 追記**
-この記事の Ship.js リリースに lerna-changelog によるリリースノート生成を組み込む記事を書きました
-https://zenn.dev/lulzneko/articles/generate-release-notes-by-pr-with-lerna-changelog
+### 関連する記事
+- [サービスを Ship.js でプルリク･ベースにリリースする](https://zenn.dev/lulzneko/articles/using-shipjs-to-make-service-releases-pr-based) (本記事)
+- [lerna-changelog でプルリクからリリースノート生成する](https://zenn.dev/lulzneko/articles/generate-release-notes-by-pr-with-lerna-changelog)
+- [GitHub Actions でコミットログからプルリクにラベル貼り](https://zenn.dev/lulzneko/articles/labeling-pr-from-commitlog-with-githubactions)
 
 
 ## 参考サイト
