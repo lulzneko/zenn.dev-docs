@@ -129,6 +129,11 @@ GitHub などでユーザー登録した際に初期生成されるアイコン�
 
 また Jdenticon は [Icon designer](https://jdenticon.com/icon-designer.html) も用意されておりカラーパレットのカスタマイズなども視覚的にできるのでアプリやサイトのテイストに合わせた設定を手軽に作れます。
 
+
+**2022.01.20 追記**
+かわいい顔アイコンの Identicon を生成するライブラリー紹介を書きました。
+https://zenn.dev/lulzneko/articles/library-for-generating-cute-face-icon-identicons
+
 ## 参考サイト
 - [Identicon - Wikipedia](https://en.wikipedia.org/wiki/Identicon)
 - [Identicons! | The GitHub Blog](https://github.blog/2013-08-14-identicons/)

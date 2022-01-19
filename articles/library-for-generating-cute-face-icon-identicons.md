@@ -3,7 +3,7 @@ title: "かわいい顔アイコンな Identicon を生成するライブラリ�
 emoji: "🙂"
 type: "tech"
 topics: [ identicon, icon, svg, nodejs, javascript ]
-published: false
+published: true
 announce:
   記事を書きました。
   GitHub などに登録した際に表示される初期アイコン、Identicon
