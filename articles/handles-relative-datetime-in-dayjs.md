@@ -3,7 +3,7 @@ title: "Day.js で「〇〇分前」のような相対日時を扱う"
 emoji: "⏳"
 type: "tech"
 topics: [ tips, dayjs, javascript, typescript, nodejs ]
-published: false
+published: true
 announce:
   記事を書きました。
   ソーシャルメディアなどの更新日時で使われる「〇〇分前」のような相対時間での表記
