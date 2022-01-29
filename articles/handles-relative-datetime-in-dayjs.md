@@ -36,7 +36,6 @@ Day.js で「〇〇分前」のような相対表記と、日本語での表記�
 - Day.js 1.10.7
 - TypeScript: 4.5
 - Ubuntu 18.04 LTS (WSL1)
-- Google Cloud Platform (OAuth 2.0)
 
 
 ## Day.js の RelativeTime plugin
