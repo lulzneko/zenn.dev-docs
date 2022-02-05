@@ -3,7 +3,7 @@ title: "Day.js で「〇〇分間」のような期間の日時を扱う"
 emoji: "⌛"
 type: "tech"
 topics: [ tips, dayjs, javascript, typescript, nodejs ]
-published: false
+published: true
 announce:
   記事を書きました。
   「24時間」や「５分間」のような期間を表すような時間を扱うことがあります。内部的にはミリ秒でよいのですが画面表示となると「日時分秒」などの単位計算が必要です。便利な Day.js の Tips を紹介。
