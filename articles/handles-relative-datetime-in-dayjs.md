@@ -142,6 +142,9 @@ Day.js を使うことで、簡単に相対時間の表記が扱えます。
 
 意外と身近なライブラリーでサポートしてくれていたんですね。助かります。
 
+### 関連する記事
+https://zenn.dev/lulzneko/articles/handles-duration-datetime-in-dayjs
+
 ## 参考サイト
 - [Day.js · 2kB JavaScript date utility library](https://day.js.org/)
 - [iamkun/dayjs: ⏰ Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API](https://github.com/iamkun/dayjs/)
